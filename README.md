@@ -6,7 +6,7 @@
 
 ## Built With
 
-Html ,VS Code& Cssa
+Html ,VS Code& Css
 
 ## Getting Started
 
