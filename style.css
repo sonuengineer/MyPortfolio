@@ -53,8 +53,6 @@ header {
   bottom: 10%;
 }
 
-
-
 #border {
   border-bottom: 1px solid white;
   margin-left: 2rem;
@@ -107,22 +105,10 @@ section p {
   margin: 12 0 0 0;
 }
 
-
-
-
 html {
   margin: 0;
   padding: 0;
 }
-
-
-
-
-
-
-
-
-
 
 #shape {
   display: flex;
@@ -136,8 +122,6 @@ body {
   flex-direction: column;
 }
 
-
-
 #square-shape {
   width: 18px;
   height: 18px;
@@ -145,8 +129,6 @@ body {
   margin-top: 47px;
   margin-left: 4rem;
 }
-
-
 
 #circle-shape {
   height: 18px;
@@ -157,18 +139,9 @@ body {
   margin-left: 6rem;
 }
 
-
-
-
-
-
-
-
-
 #desktop-main {
   display: none;
 }
-
 
 #portfolio {
   display: none;
@@ -257,7 +230,6 @@ body {
     margin-top: 20px;
   }
 
-
   #contact-header {
     height: 20px;
     width: 59px;
@@ -309,8 +281,6 @@ body {
     color: #f55800;
     margin-left: 1rem;
   }
-
-  
 
   #test {
     display: flex;
