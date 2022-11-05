@@ -147,7 +147,7 @@
 .img-container button {
   border: none;
   background-color: #ff6b00;
-  margin: 12px;
+  padding: 12px;
   width: 124px;
   height: 48px;
   color: white;
@@ -229,7 +229,7 @@
   line-height: 24px;
   color: white;
   width: auto;
-  height: 58px;
+  height: 48px;
   background-color: #ff6b00;
   border: none;
 }
@@ -256,7 +256,7 @@
 }
 
 .about-descrp {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter',sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: white;
