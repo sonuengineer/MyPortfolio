@@ -675,7 +675,6 @@ li.skills-title {
   }
 }
 
-
 .contact-form .title {
   color: #172b4d;
   font-family: "Inter", sans-serif;
@@ -684,7 +683,6 @@ li.skills-title {
   line-height: 44px;
   text-align: center;
 }
-
 
 /* Media for larger devices */
 @media all and (min-width: 768px) {
