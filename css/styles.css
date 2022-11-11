@@ -459,7 +459,6 @@ div.card-works {
 @media all and (min-width: 768px) {
   div.card-works {
     max-height: 285px;
-    transition: all 0.5s ease-out;
   }
 
   div.card-works:hover {
