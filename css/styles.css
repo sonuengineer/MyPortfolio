@@ -139,11 +139,7 @@
     gap: 18px;
   }
 
-  .headline-content h1 {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-  }
+  
 }
 
 @keyframes slidein {
