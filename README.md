@@ -4,13 +4,6 @@
 
 > This is my website built by me. 
 
-## ScreenShot
-### Mobile View
-[![screencapture-127-0-0-1-5500-index-html-2022-07-06-14-05-47.png](https://i.postimg.cc/fTTdGRtq/screencapture-127-0-0-1-5500-index-html-2022-07-06-14-05-47.png)](https://postimg.cc/jCmCNKhy)
-
-### Desktop View
-[![screencapture-127-0-0-1-5500-index-html-2022-07-08-20-43-48.png](https://i.postimg.cc/ZKQdBmqS/screencapture-127-0-0-1-5500-index-html-2022-07-08-20-43-48.png)](https://postimg.cc/HVQxRf5Z)
-
 
 ## Built With
 
@@ -20,7 +13,7 @@
 
 ## Getting Started
 
-Portfolio Website is a project given to micronaut to test their knowledge on HTML And CSS to teach them a mobile first approach.
+Portfolio Website is a project given to micronaut to test their knowledge on HTML CSS And JAVASCRIPT.
 
 To get a local copy up and running follow these simple example steps.
 You can add the steps to follow to clone your project,
