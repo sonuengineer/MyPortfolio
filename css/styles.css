@@ -98,7 +98,7 @@
 
 #mobile_menu a {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -874,3 +874,4 @@ li.skills-title {
     color: #000;
   }
 }
+
