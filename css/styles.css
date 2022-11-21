@@ -62,6 +62,9 @@
   }
 }
 
+.navbar-desktop {
+  display: none;
+}
 
 @media all and (min-width: 768px) {
   .navbar-desktop {
@@ -74,6 +77,15 @@
     gap: 8px;
     align-items: center;
   }
+}
+
+/* Styles for Mobile menu */
+.show_menu {
+  display: flex;
+}
+
+.hide_menu {
+  display: none;
 }
 
 #mobile_menu {
