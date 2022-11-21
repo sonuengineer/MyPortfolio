@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title> Porfolio</title>
+    <title>sonu prajapati</title>
   </head>
   <body>
-    <header class="header">
+    <article id="popup-window" class="hide_menu"></article>
+
+    <header class="header show_menu">
       <a href="#">sonu</a>
       <nav class="navbar">
-        <a href="#">
+        <a class="menu_icon" href="#">
           <img class="icon" src="imgs/menu-icon.png" alt="Menu icon" />
         </a>
       </nav>
       <nav class="navbar-desktop">
-        <a href="#">Portfolio</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a  href="#portfolio">Portfolio</a>
+        <a  href="#about">About</a>
+        <a  href="#contact">Contact</a>
         <div class="mail-icon">
           <a href="#">
             <img src="imgs/mail_icon.svg" alt="Mail icon" />
@@ -28,9 +30,18 @@
       </nav>
     </header>
 
+    <section class="hide_menu" id="mobile_menu">
+        <a class="btn-close" href="#">
+          <img src="imgs/close_icon.png" alt="close mobile menu icon" />
+        </a>
+        <a class="portfolioLink" href="#portfolio">Portfolio</a>
+        <a class="aboutLink" href="#about">About</a>
+        <a class="contactLink" href="#contact">Contact</a>
+    </section>
+
     <section class="headline">
       <div class="headline-content">
-        <h1>Hey There. I'm sonu</h1>
+        <h1>Hey There. I am sonu</h1>
         <h2>I’am a Software Developer</h2>
         <p>
           I can help you build a product , feature or website Look through some
@@ -76,12 +87,13 @@
       <div class="headline-bg-image"></div>
     </section>
 
-    <section class="recent-works">
+    <section id="portfolio" class="recent-works">
       <div class="title">
         <h2 class="recent-works">My Recent Works</h2>
         <hr />
       </div>
 
+      
       <div class="works">
         <div class="featured-work">
           <img
@@ -221,7 +233,7 @@
       </div>
     </section>
 
-    <section class="about-me">
+    <section id="about" class="about-me">
       <div class="about">
         <h2>About me</h2>
         <p class="text-post">
@@ -277,12 +289,14 @@
         </div>
       </div>
     </section>
-    <section class="contact-form">
+
+    <section id="contact" class="contact-form">
       <h3 class="title">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </h3>
-      <form action="https://formspree.io/f/xdojyaan" method="POST" class="form">
+      <form action="https://formspree.io/f/mlevonva" method="POST" class="form">
+        <label for="full_name" hidden>Full name</label>
         <input
           type="text"
           name="full_name"
@@ -291,6 +305,7 @@
           placeholder="Full name"
           maxlength="30"
         />
+        <label for="email" hidden>Email</label>
         <input
           type="email"
           name="email"
@@ -298,6 +313,8 @@
           required
           placeholder="Email address"
         />
+        <span class="error" aria-live="polite"></span>
+        <label for="message" hidden>Message</label>
         <textarea
           name="message"
           id="message"
@@ -359,7 +376,6 @@
         </li>
       </ul>
     </footer>
-    <hr  class="horizontal">
-   
+    <script src="script.js"></script>
   </body>
 </html>
