@@ -13,7 +13,6 @@ menuButton.addEventListener('click', () => {
 
 closeMenu.addEventListener('click', () => {
   mobileMenu.classList.replace('show_menu', 'hide_menu');
-
   header.classList.replace('hide_menu', 'show_menu');
 });
 
