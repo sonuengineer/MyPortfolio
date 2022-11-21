@@ -599,12 +599,6 @@ div.about {
     background-image: url("../imgs/about-mebg-image_desktop.png");
     background-repeat: no-repeat;
     background-position-x: right;
-    
-    /* position: absolute;
-    height: 354px;
-    width: 586px;
-    left: 37%;
-    top: 5%; */
   }
 }
 
@@ -874,3 +868,4 @@ li.skills-title {
     color: #000;
   }
 }
+
