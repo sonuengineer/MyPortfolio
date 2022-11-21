@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-Portfolio Website is a project given to micronaut to test their knowledge on HTML And CSS to teach them a mobile first approach.
+Portfolio Website is a project given to micronaut to test their knowledge on HTML CSS And JAVASCRIPT.
 
 To get a local copy up and running follow these simple example steps.
 You can add the steps to follow to clone your project,
