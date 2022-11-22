@@ -110,7 +110,7 @@ const works = [
 // create li-tags for technologies in each card
 function generateLiTags(technologies) {
   const liTagsList = document.createElement('ul');
-  for (let i = 0; i < technologies.length; i++) {
+  for (let i = 0; i < technologies.length; i += 1) {
     const liTag = document.createElement('li');
     liTag.className = 'tag';
     liTag.textContent = technologies[i];
@@ -119,10 +119,10 @@ function generateLiTags(technologies) {
   return liTagsList.innerHTML;
 }
 
-// Createing  Work Cards Dynamically
+// Create Work Cards Dynamically
 const worksList = document.querySelector('#portfolio .works');
 
-for (let i = 0; i < works.length; i++) {
+for (let i = 0; i < works.length; i += 1) {
   if (works[i].id === 'featureWork') {
     const featWorkTemplate = `
       <div class="featured-work">
@@ -177,14 +177,14 @@ for (let i = 0; i < works.length; i++) {
 }
 
 function getWork(id) {
-  for (let i = 0; i < works.length; i++) {
+  for (let i = 0; i < works.length; i += 1) {
     if (works[i].id === id) {
       return works[i];
     }
   }
   return false;
 }
-// generar pop-up windows for work section 
+// generar pop-up windows
 function showPopUp(id = null) {
   if (id !== null) {
     const work = getWork(id);
