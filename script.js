@@ -50,7 +50,7 @@ const works = [
     name: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'bootstrap', 'Ruby'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
@@ -60,7 +60,7 @@ const works = [
     name: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'javascript', 'css'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
@@ -70,7 +70,7 @@ const works = [
     name: 'Website Protfolio',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'javascript', 'Ruby'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
@@ -80,7 +80,7 @@ const works = [
     name: 'Profesional Art Data Printing',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'css', 'Ruby'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
@@ -90,7 +90,7 @@ const works = [
     name: 'Healthcare Data Dashboard',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'javascript', 'bootstrap'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
@@ -100,7 +100,7 @@ const works = [
     name: 'My Website Portfolio',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. has been the industry's standard.`,
-    featImage: '../imgs/placeholder-img.png',
+    featImage: './imgs/placeholder-img.png',
     technologies: ['html', 'css', 'bootstrap', 'Ruby'],
     liveLink: 'https://sonuengineer.github.io/MyPortfolio/',
     sourceLink: 'https://github.com/sonuengineer/MyPortfolio',
