@@ -279,7 +279,6 @@ function changeHandler() {
   };
   localStorage.setItem('user', JSON.stringify(field));
 }
-changeHandler();
 
 if (localStorage.getItem('user') === null) {
   email.value = '';
@@ -291,3 +290,4 @@ if (localStorage.getItem('user') === null) {
   fullName.value = user.name;
   message.value = user.message;
 }
+changeHandler();
