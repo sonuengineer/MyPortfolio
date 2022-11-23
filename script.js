@@ -265,29 +265,3 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit();
   }
 });
-
-// Store data in localStorage
-const fullName = document.getElementById('full_name');
-const message = document.getElementById('message');
-const email = document.getElementById('email');
-
-function changeHandler() {
-  const field = {
-    name: fullName.value,
-    email: email.value,
-    message: message.value,
-  };
-  localStorage.setItem('user', JSON.stringify(field));
-}
-changeHandler();
-
-if (localStorage.getItem('user') === null) {
-  email.value = '';
-  fullName.value = '';
-  message.value = '';
-} else {
-  const user = JSON.parse(localStorage.getItem('user'));
-  email.value = user.email;
-  fullName.value = user.name;
-  message.value = user.message;
-}
