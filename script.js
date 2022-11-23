@@ -271,7 +271,7 @@ const fullName = document.getElementById('full_name');
 const message = document.getElementById('message');
 const email = document.getElementById('email');
 
-changeHandler = () => {
+function changeHandler(){
   const field = {
     name: fullName.value,
     email: email.value,
