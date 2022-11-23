@@ -265,10 +265,11 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit();
   }
 });
+
 // Store data in localStorage
-const fullName = document.getElementById("full_name");
-const message = document.getElementById("message");
-const email = document.getElementById("email");
+const fullName = document.getElementById('full_name');
+const message = document.getElementById('message');
+const email = document.getElementById('email');
 
 changeHandler = () => {
   const field = {
@@ -276,15 +277,15 @@ changeHandler = () => {
     email: email.value,
     message: message.value,
   };
-  localStorage.setItem("user", JSON.stringify(field));
+  localStorage.setItem('user', JSON.stringify(field));
 };
 
-if (localStorage.getItem("user") === null) {
-  email.value = "";
-  fullName.value = "";
-  message.value = "";
+if (localStorage.getItem('user') === null) {
+  email.value = '';
+  fullName.value = '';
+  message.value = '';
 } else {
-  const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(localStorage.getItem('user'));
   email.value = user.email;
   fullName.value = user.name;
   message.value = user.message;
